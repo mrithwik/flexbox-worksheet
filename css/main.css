@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #f16059;
   font-size: 1.5rem;
   padding-bottom: 30px;
@@ -42,11 +42,12 @@ nav ul li a,
 p,
 ul,
 code {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
 }
 
-p, ul {
+p,
+ul {
   line-height: 1.5;
 }
 
@@ -59,7 +60,7 @@ a {
 }
 
 code {
-  background-color: #EEECEC;
+  background-color: #eeecec;
   padding: 0 3px;
   color: #1717b0;
 }
@@ -219,7 +220,6 @@ section {
 /* End child flex item styles */
 
 @media (min-width: 768px) {
-
   .property-description {
     width: 80%;
   }
@@ -293,7 +293,6 @@ section {
   }
 
   /* End child flex item styles */
-
 }
 
 @media (min-width: 1200px) {
@@ -358,30 +357,44 @@ section {
 /* justify-content */
 section#justify-content-section {
   /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .justify-content-center-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .justify-content-space-between-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: space-between;
 }
 
 .justify-content-space-around-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: space-around;
 }
 
 .justify-content-space-evenly-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .justify-content-flex-start-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: flex-start;
 }
 
 .justify-content-flex-end-parent-container {
   /* place your code here */
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* end justify-content */
@@ -495,7 +508,7 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
-/* place your code here */
+  /* place your code here */
 }
 
 .gap-parent-container {
@@ -560,7 +573,7 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
-  /* place your code here */ 
+  /* place your code here */
 }
 
 .flex-flow-row-nowrap-parent-container {
